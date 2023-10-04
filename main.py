@@ -10,3 +10,4 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
             return [num_indices[complement], i]
         
         num_indices[num] = i 
+    return []
